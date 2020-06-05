@@ -6,7 +6,7 @@ const Container = styled.div`
   padding: 16px;
   text-align: center;
   margin: 16px;
-  border: 1px solid green;
+  border: 1px solid red;
 `;
 const Char = (props) => {
   return <Container onClick={props.clicked}>{props.character}</Container>;
