@@ -9,7 +9,6 @@ const Validation = (props) => {
     <section>
       <code>{validationMessage}</code>
     </section>
-
     // <section>
     //   {props.textInputLength < 7 ? (
     //     <div>Text input must be at least 7 symbols!</div>
